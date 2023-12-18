@@ -1,0 +1,128 @@
+/* _______________________________ Styles des pages ____________________________________ */
+
+#APropos {
+
+}
+#Competences{
+
+}
+#Experiences{
+
+}
+#Formations{
+
+}
+#Contact{
+
+}
+
+body {
+    background-color: black;
+    background-image: url("../img/accueil/background.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    position: fixed; /* Fixe la barre en haut de la page */
+    top: 0; /* Place la barre tout en haut de la fenêtre */
+    left: 0; /* Place la barre tout à gauche de la fenêtre */
+    right: 0; /* Place la barre tout à droite de la fenêtre */
+    background-color: whitesmoke;
+    color: #000000;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Style du logo */
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.8s;
+    margin-left: 15px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+#footer {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke; /* Ajoutez une couleur de fond pour le pied de page si nécessaire */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#footer #buttons {
+    text-align: center; /* Pour centrer horizontalement les boutons dans le pied de page */
+    padding: 10px; /* Ajoutez un rembourrage pour l'apparence */
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer li {
+    display: inline-block;
+    margin-right: 15px; /* Espacement entre les éléments de la liste (ajustez selon vos préférences) */
+    color: black;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+    transition: 0.6s;
+}
+
+#footer a:hover {
+    color: crimson;
+    border-bottom: solid 1px crimson;
+    transition: 0.6s;
+}
+
+.apropos-page {
+    background-color: transparent;
+    background-image: url('../img/apropos/apropos_background.gif');
+    background-size: 100%;
+}
+
+.competences-page {
+    background-color: transparent;
+    background-image: url('../img/competences/competences_background.gif');
+    background-size: 100%;
+}
+
+.competences-page2 {
+    background-color: transparent;
+    background-image: url('../img/competences/competences_background_page2.gif');
+    background-size: 100%;
+}
+
+.experiences-page {
+    background-color: black;
+    background-image: url('../img/experiences/background.jpg');
+    background-size: 100%;
+}
+
+.formations-page {
+    background-color: black;
+    background-image: url('../img/formations/form_background.jpg');
+    background-size: 100%;
+}
