@@ -39,7 +39,7 @@ $data=yaml_parse_file('contenu.yaml');
         <ul class="nav-buttons">
             <li <?php echo $page === 'Accueil' ? 'class="active"' : ''; ?>><a href="?page=Accueil">Accueil</a></li>
             <li <?php echo $page === 'APropos' ? 'class="active"' : ''; ?>><a href="?page=APropos">À propos</a></li>
-            <li <?php echo $page === 'Competences' || $page === 'Competences-page2' ? 'class="active"' : ''; ?>><a href="?page=Competences">Compétences</a></li>
+            <li <?php echo $page === 'Competences' || $page === 'Competences-page2' || $page === 'Competences-page3' ? 'class="active"' : ''; ?>><a href="?page=Competences">Compétences</a></li>
             <li <?php echo $page === 'Experience' ? 'class="active"' : ''; ?>><a href="?page=Experience">Expériences</a></li>
             <li <?php echo $page === 'Formations' ? 'class="active"' : ''; ?>><a href="?page=Formations">Formations</a></li>
             <li <?php echo $page === 'Contact' ? 'class="active"' : ''; ?>><a href="?page=Contact">Contact</a></li>
@@ -63,8 +63,8 @@ $data=yaml_parse_file('contenu.yaml');
         case 'Competences-page2':
             include('sections/Competences-page2.php');
             break;
-        case 'Competences-page2':
-            include('sections/Competences-page2.php');
+        case 'Competences-page3':
+            include('sections/Competences-page3.php');
             break;
         case 'Experience':
             include('sections/Experience.php');
@@ -84,9 +84,8 @@ $data=yaml_parse_file('contenu.yaml');
     <footer id="footer">
         <div id="buttons">
             <ul>
-                <li><a href="?page=MentionsLegales">Mentions Légales</a></li>
-                <li>●</li>
-                <li><a href="?page=ReseauxSociaux">Réseaux Sociaux</a></li>
+                <li><a href="#" id="rgpdLink">Notre politique RGPD</a></li>
+                <script src="sections/pages_footer/rgpd-script.js"></script>
                 <li>●</li>
                 <li><a href="?page=Contact">Contacts</a></li>
             </ul>
