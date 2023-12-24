@@ -5,7 +5,7 @@
 <body class="apropos-page">
 <section id="APropos">
     <div class="content-APropos">
-        <img src="img//apropos/me.jpg" alt="Me" width="200" height="200">
+        <img src="img//apropos/me.jpg" alt="Me" width="300" height="350">
         <?php
         echo "<h2>ENCHANTÉ</h2>\n";
         foreach($data["apropos"]as $uneInfo){
