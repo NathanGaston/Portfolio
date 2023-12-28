@@ -1,0 +1,62 @@
+apropos: |
+  - Je m'appelle Nathan GASTON, un passionné d'informatique âgé de 18 ans, actuellement en classe de BTS SIO option SISR.
+  - Mon parcours a commencé avec un Bac Pro SN option RISC, et aujourd'hui, je suis ravi de m'immerger davantage dans le monde de l'informatique
+  - en poursuivant mes études jusqu'au diplôme d'ingénieur (BAC+5). L'univers des équipements informatiques m'a toujours fasciné, et parmi eux,
+  - les routeurs et les switchs occupent une place spéciale dans mon cœur. C'est incroyable de voir tout ce qu'on peut accomplir avec ces technologies !
+  - En ce moment, je suis en alternance chez la Fondation Apprentis d'Auteuil, une expérience enrichissante que je prolonge avec enthousiasme pour deux
+  - années supplémentaires, jusqu'à la fin de mon BTS.
+  - Le code est une autre de mes passions. Bien que parfois complexe, c'est pour moi une source de défis stimulants. J'aime explorer les possibilités
+  - infinies qu'il offre et trouver des solutions créatives aux problèmes.
+  - En dehors du monde de l'informatique, j'ai un penchant pour l'horreur. Ma saga préférée dans ce genre est Silent Hill.
+  - L'atmosphère angoissante, les énigmes complexes et l'histoire captivante me transportent dans un univers unique à chaque fois.
+
+#______________________________________ EXPERIENCES _____________________________________#
+
+experiences1:
+  - nom: APPRENTI EN PRODUCTION INFORMATIQUE CHEZ APPRENTIS D'AUTEUIL
+    date: DE FÉVRIER 2022 à AUJOURD'HUI
+    taches: |
+      - Déploiement de la solution ToIP dans près de 250 établissements
+      - Aide à l'utilisateur sur les applicatifs (Softphones, poste, mail, etc...)
+      - Déploiement d'applicatifs via GPO
+
+experiences2:
+  - nom: STAGIAIRE CHEZ INFORMATIQUE DÉPANNAGE EXPRESS (I.D.E.)
+    date: DE JUIN 2021 à JUILLET 2021
+    taches: |
+      - Dépannage sur plusieurs ordinateurs (HS, Dysfonctionnements, etc...)
+      - Paramétrage complet d'un serveur sous Debian
+      - Montage complet d'un ordinateur dit "performant" pour le rendu 3D
+
+experiences3:
+  - nom: STAGIAIRE CHEZ GITEM
+    date: DE DÉCEMBRE 2021 à DÉCEMBRE 2021
+    taches: |
+      - Vente de matériel électroménager et informatique
+      - Dépannage de produits électroménager
+      - Livraisons de d'appareils et installation chez les clients
+
+#______________________________________ FORMATIONS _____________________________________#
+
+formations1:
+  - nom: LYCÉE POLYVALENT CHARLES TELLIER - Condés-sur-Noireau
+    date: DE SEPTEMBRE 2021 à JUIN 2023
+    taches: |
+      - Obtention du Baccalauréat Professionnel Systèmes Numériques.
+      - Spécialisation dans l'option Réseaux Informatiques et Systèmes Communiquants.
+      - Début de mon Alternance au sein de la Fondation Apprentis d'auteuil à Lisieux.
+
+formations2:
+  - nom: LYCÉE PROFESSIONNEL JEAN JORRIS - Dives-sur-Mer
+    date: DE SEPTEMBRE 2020 à JUIN 2021
+    taches: |
+      - Formation commune sur 3 options dont SSIHT (Sécurité de l'habitat),
+        ARED (Audiovisuel et équipements domestiques)
+        et RISC (Réseaux Informatique et Systèmes Communiquants).
+      - Spécialisation à partir de la classe de Première.
+
+formations3:
+  - nom: COLLÈGE SAINT LOUIS - Cabourg
+    date: DE SEPTEMBRE 2016 à JUIN 2020
+    taches: |
+      - Obtention du Brevet des Collèges avec mention "Assez bien".
